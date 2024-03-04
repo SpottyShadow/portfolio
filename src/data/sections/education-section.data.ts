@@ -4,27 +4,35 @@ import { website } from '../helpers/links';
 
 const educationSectionData = {
   config: {
-    title: 'Education',
+    title: 'Éducation',
     slug: 'education',
     icon: 'fa6-solid:graduation-cap',
     visible: true,
   },
   diplomas: [
     {
-      title: 'Information Technology',
-      institution: 'Wrocław University of Science and Technology',
-      image: import('@/assets/logos/wroclaw-university-of-technology.jpg'),
-      dates: [new Date('2014.10'), new Date('2016.07')],
-      description: 'Master degree. Specialization in software development.',
-      links: [website({ url: '#' })],
+      title: 'BUT Informatique',
+      institution: 'Université Toulouse III - Paul Sabatier',
+      image: import('@/assets/logos/logo-IUT.jpg'),
+      dates: [new Date('2021.09'), new Text('Présent')],
+      description: 'Spécialité Administration, Gestions et Exploitation des Données (AGED)',
+      links: [website({ url: 'https://www.univ-tlse3.fr/' })],
     },
     {
-      title: 'Information Technology',
-      institution: 'Wrocław University of Science and Technology',
-      image: import('@/assets/logos/wroclaw-university-of-technology.jpg'),
-      dates: [new Date('2011.10'), new Date('2014.07')],
-      description: "Bachelor's degree. Specialization in application development.",
-      links: [website({ url: '#' })],
+      title: 'DUT Informatique',
+      institution: 'Université Toulouse III - Paul Sabatier',
+      image: import('@/assets/logos/logo-IUT.jpg'),
+      dates: [new Date('2021.09'), new Date('2023.07')],
+      description: 'Spécialité Administration, Gestions et Exploitation des Données (AGED)',
+      links: [website({ url: 'https://www.univ-tlse3.fr/' })],
+    },
+    {
+      title: 'Bac STI2D',
+      institution: 'Lycée Pierre de Coubertin',
+      image: import('@/assets/logos/logo-lycée.jpg'),
+      dates: [new Date('2018.09'), new Date('2021.07')],
+      description: "Spécialité SIN (Système d\'Information et Numérique)",
+      links: [website({ url: 'https://www.coubertin-meaux.fr/' })],
     },
   ],
 } as const satisfies ReadonlyDeep<EducationSection>;
