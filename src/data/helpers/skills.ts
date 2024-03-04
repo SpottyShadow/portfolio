@@ -25,6 +25,20 @@ export const python = createSkillFactory({
   url: 'https://www.python.org/',
 });
 
+export const MicrosoftSqlServer = createSkillFactory({
+  name: 'Microsoft SQL Server',
+  icon: 'simple-icons:Microsoft SQL Server',
+  iconColor: '#CC2927',
+  url: 'https://www.microsoft.com/fr-fr/sql-server/',
+});
+
+export const Csharp = createSkillFactory({
+  name: 'C#',
+  icon: 'simple-icons:C#',
+  iconColor: '#512BD4',
+  url: 'https://learn.microsoft.com/fr-fr/dotnet/csharp/',
+});
+
 export const apolloGraphql = createSkillFactory({
   name: 'Apollo GraphQL',
   icon: 'simple-icons:apollographql',

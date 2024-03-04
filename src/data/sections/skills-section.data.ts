@@ -29,7 +29,7 @@ const skillsSectionData = {
   },
   skillSets: [
     {
-      title: 'Je connais déjà',
+      title: 'Je maîtrise déjà',
       skills: [
         python({
           level: 5
