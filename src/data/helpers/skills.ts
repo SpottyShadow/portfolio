@@ -21,7 +21,6 @@ skill({ description: '...' }) — returns skill with a description displayed whe
 export const python = createSkillFactory({
   name: 'Python',
   icon: 'simple-icons:python',
-  iconColor: '#FFD43B',
   url: 'https://www.python.org/',
 });
 
