@@ -9,7 +9,7 @@ const mainSectionData = {
     slug: 'profile',
     visible: true,
   },
-  image: import('@/assets/my-image.jpg'),
+  image: import('@/assets/my-image.jpeg'),
   fullName: 'Théo Lemoine',
   role: 'Étudiant en 3ème anneé de BUT Informatique',
   details: [
