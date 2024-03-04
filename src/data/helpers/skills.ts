@@ -27,14 +27,14 @@ export const python = createSkillFactory({
 
 export const MicrosoftSqlServer = createSkillFactory({
   name: 'Microsoft SQL Server',
-  icon: 'simple-icons:Microsoft SQL Server',
+  icon: 'simple-icons:SQL',
   iconColor: '#CC2927',
   url: 'https://www.microsoft.com/fr-fr/sql-server/',
 });
 
 export const Csharp = createSkillFactory({
   name: 'C#',
-  icon: 'simple-icons:C#',
+  icon: 'simple-icons:C',
   iconColor: '#512BD4',
   url: 'https://learn.microsoft.com/fr-fr/dotnet/csharp/',
 });
