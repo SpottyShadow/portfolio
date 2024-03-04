@@ -1,6 +1,7 @@
 import type { SkillsSection } from '@/types/sections/skills-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import {
+  python,
   apolloGraphql,
   astro,
   chakraUi,
@@ -28,8 +29,11 @@ const skillsSectionData = {
   },
   skillSets: [
     {
-      title: 'I already know',
+      title: 'Je connais déjà',
       skills: [
+        python({
+          level: 5
+        }),
         react({
           level: 5,
           description:
@@ -63,11 +67,11 @@ const skillsSectionData = {
       ],
     },
     {
-      title: 'I want to learn',
+      title: 'J\'aimerais apprendre',
       skills: [apolloGraphql(), astro(), supabase(), cypress()],
     },
     {
-      title: 'I speak',
+      title: 'Je parle',
       skills: [
         { icon: 'circle-flags:fr', name: 'Français - natif' },
         { icon: 'circle-flags:us', name: 'English - B2' },
