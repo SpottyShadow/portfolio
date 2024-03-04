@@ -34,11 +34,6 @@ const skillsSectionData = {
         python({
           level: 5
         }),
-        react({
-          level: 5,
-          description:
-            'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
-        }),
         typescript({
           level: 4,
           description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
@@ -68,14 +63,14 @@ const skillsSectionData = {
     },
     {
       title: 'J\'aimerais apprendre',
-      skills: [apolloGraphql(), astro(), supabase(), cypress()],
+      skills: [react()],
     },
     {
       title: 'Je parle',
       skills: [
         { icon: 'circle-flags:fr', name: 'Français - natif' },
-        { icon: 'circle-flags:us', name: 'English - B2' },
-        { icon: 'circle-flags:es-variant', name: 'Spanish - B1' },
+        { icon: 'circle-flags:us', name: 'Anglais - B2' },
+        { icon: 'circle-flags:es-variant', name: 'Espagnol - B1' },
       ],
     },
   ],
