@@ -14,7 +14,7 @@ const educationSectionData = {
       title: 'BUT Informatique',
       institution: 'Université Toulouse III - Paul Sabatier',
       image: import('@/assets/logos/logo-IUT.jpg'),
-      dates: [new Date('2021.09'), new Text('Présent')],
+      dates: [new Date('2021.09'), null],
       description: 'Spécialité Administration, Gestions et Exploitation des Données (AGED)',
       links: [website({ url: 'https://www.univ-tlse3.fr/' })],
     },
