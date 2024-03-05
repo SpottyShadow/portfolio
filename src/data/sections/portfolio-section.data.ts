@@ -45,9 +45,10 @@ const portfolioSectionData = {
         { label: 'Repository', value: 'https://github.com/JulesLscx/RankFinder', url: '#' },
       ],
       screenshots: [
-        { src: import('@/assets/portfolio/project-1-screenshot-1.jpg'), alt: 'Premier screenshot' },
-        { src: import('@/assets/portfolio/project-1-screenshot-2.jpg'), alt: 'Deuxième screenshot' },
-        { src: import('@/assets/portfolio/project-1-screenshot-3.jpg'), alt: 'Troisième screenshot' },
+        { src: import('@/assets/portfolio/model1.jpg'), alt: 'Premier screenshot' },
+        { src: import('@/assets/portfolio/model2.jpg'), alt: 'Deuxième screenshot' },
+        { src: import('@/assets/portfolio/model3.jpg'), alt: 'Troisième screenshot' },
+        { src: import('@/assets/portfolio/model4.jpg'), alt: 'Quatrième screenshot' },
       ],
       description:
         'Notre source de donnée sont des laissés sur des livres. Le but des modèles est de pouvoir prédire la polarité d\'un commentaire (positif, négatif ou neutre) et aussi de pouvoir prédire le score que le lecteur va attribuer dans son commentaire.',
