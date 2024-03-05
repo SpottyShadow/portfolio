@@ -18,6 +18,7 @@ import {
   supabase,
   tailwindCss,
   typescript,
+  Sql,
 } from '../helpers/skills';
 
 const skillsSectionData = {
@@ -32,6 +33,9 @@ const skillsSectionData = {
       title: 'Je maîtrise déjà',
       skills: [
         python({
+          level: 5
+        }),
+        Sql({
           level: 5
         }),
         typescript({

@@ -28,7 +28,7 @@ const educationSectionData = {
     },
     {
       title: 'Bac STI2D',
-      institution: 'Lycée Pierre de Coubertin',
+      institution: 'Lycée Pierre de Coubertin, Meaux',
       image: import('@/assets/logos/logo-lycée.jpg'),
       dates: [new Date('2018.09'), new Date('2021.07')],
       description: "Spécialité SIN (Système d\'Information et Numérique)",

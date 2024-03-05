@@ -25,11 +25,10 @@ export const python = createSkillFactory({
   url: 'https://www.python.org/',
 });
 
-export const MicrosoftSqlServer = createSkillFactory({
-  name: 'Microsoft SQL Server',
-  icon: 'simple-icons:SQL',
-  iconColor: '#CC2927',
-  url: 'https://www.microsoft.com/fr-fr/sql-server/',
+export const Sql = createSkillFactory({
+  name: 'SQL',
+  icon: import('@/assets/logos/sql.jpeg'),
+  url: 'https://sql.sh/',
 });
 
 export const Csharp = createSkillFactory({
