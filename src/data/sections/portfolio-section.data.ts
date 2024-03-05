@@ -71,9 +71,9 @@ const portfolioSectionData = {
         { label: 'Repository', value: 'https://github.com/Baran-Kaya-PS/NLP_Project', url: '#' },
       ],
       screenshots: [
-        { src: import('@/assets/portfolio/project-1-screenshot-1.jpg'), alt: 'Premier screenshot' },
-        { src: import('@/assets/portfolio/project-1-screenshot-2.jpg'), alt: 'Deuxième screenshot' },
-        { src: import('@/assets/portfolio/project-1-screenshot-3.jpg'), alt: 'Troisième screenshot' },
+        { src: import('@/assets/portfolio/MySearch1.jpg'), alt: 'Premier screenshot' },
+        { src: import('@/assets/portfolio/MySearch2.jpg'), alt: 'Deuxième screenshot' },
+        { src: import('@/assets/portfolio/MySearch3.jpg'), alt: 'Troisième screenshot' },
       ],
       description:
         'Réaliser un site web vitrine pour des series TV. Faire une fonction de recherche par l\'algorithme TF-IDF, Faire une recommandation de séries. Intégrer un système de création de compte, la possibilité de like/dislike une série.',
@@ -95,11 +95,6 @@ const portfolioSectionData = {
       pdfDetails: [
         { label: 'Repository', value: 'https://github.com/JulesLscx/covid_infograph', url: '#' },
       ],
-      screenshots: [
-        { src: import('@/assets/portfolio/project-1-screenshot-1.jpg'), alt: 'Premier screenshot' },
-        { src: import('@/assets/portfolio/project-1-screenshot-2.jpg'), alt: 'Deuxième screenshot' },
-        { src: import('@/assets/portfolio/project-1-screenshot-3.jpg'), alt: 'Troisième screenshot' },
-      ],
       description:
         'Tableau de bord permettant d\'analyser des publications scientifiques sur le Covid-19. Réaliser des graphs cohérent par rapport aux données.',
       tagsList: {
@@ -119,11 +114,6 @@ const portfolioSectionData = {
       ],
       pdfDetails: [
         { label: 'Repository', value: 'https://github.com/JulesLscx/SupperAppart', url: '#' },
-      ],
-      screenshots: [
-        { src: import('@/assets/portfolio/project-1-screenshot-1.jpg'), alt: 'Premier screenshot' },
-        { src: import('@/assets/portfolio/project-1-screenshot-2.jpg'), alt: 'Deuxième screenshot' },
-        { src: import('@/assets/portfolio/project-1-screenshot-3.jpg'), alt: 'Troisième screenshot' },
       ],
       description:
         'Logiciel permettant de faire la gestion de biens immobilier, ainsi que la gestion des locataires, des paiements, des contrats, des charges, etc.',
