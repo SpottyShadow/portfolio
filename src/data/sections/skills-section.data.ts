@@ -49,10 +49,10 @@ const skillsSectionData = {
         MicrosoftSqlServer({ level: 4 }),
       ],
     },
-    // {
-    //   title: 'Je suis',
-    //   Skills:[Productif(), Autonome(), Créatif(), TravailEquipe(), Respectueux()]
-    // },
+    {
+      title: 'Je suis',
+      Skills:[Productif(), Autonome(), Créatif(), TravailEquipe(), Respectueux()]
+    },
     {
       title: 'J\'aimerais apprendre',
       skills: [react()],

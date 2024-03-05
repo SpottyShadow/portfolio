@@ -130,22 +130,37 @@ export const react = createSkillFactory({
   url: 'https://reactjs.org/',
 });
 
-// export const Productif = createSkillFactory({
-//   name: 'Productif',
-// });
+export const Productif = createSkillFactory({
+  name: 'Productif',
+  icon: null,
+  iconColor: null,
+  url: null,
+});
 
-// export const Autonome = createSkillFactory({
-//   name: 'Autonome',
-// });
+export const Autonome = createSkillFactory({
+  name: 'Autonome',
+  icon: null,
+  iconColor: null,
+  url: null,
+});
 
-// export const Créatif = createSkillFactory({
-//   name: 'Créatif',
-// });
+export const Créatif = createSkillFactory({
+  name: 'Créatif',
+  icon: null,
+  iconColor: null,
+  url: null,
+});
 
-// export const TravailEquipe = createSkillFactory({
-//   name: 'Travail en équipe',
-// });
+export const TravailEquipe = createSkillFactory({
+  name: 'Travail en équipe',
+  icon: null,
+  iconColor: null,
+  url: null,
+});
 
-// export const Respectueux = createSkillFactory({
-//   name: 'Respectueux',
-// });
+export const Respectueux = createSkillFactory({
+  name: 'Respectueux',
+  icon: null,
+  iconColor: null,
+  url: null,
+});
