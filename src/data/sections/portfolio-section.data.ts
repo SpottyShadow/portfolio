@@ -34,7 +34,7 @@ const portfolioSectionData = {
   projects: [
     {
       name: 'Modèle d\'IA de prédiction',
-      image: import('@/assets/portfolio/project-1.jpeg'),
+      image: import('@/assets/portfolio/ia.jpeg'),
       dates: [new Date('2024-01'), new Date('2024-03')],
       details: [
         { label: 'Taille de l\'équipe', value: '5 personnes' },
@@ -59,7 +59,7 @@ const portfolioSectionData = {
     },
     {
       name: 'My Search',
-      image: import('@/assets/portfolio/project-1.jpeg'),
+      image: import('@/assets/portfolio/moteur-de-recherche.jpeg'),
       dates: [new Date('2023-09'), new Date('2024-01')],
       details: [
         { label: 'Taille de l\'équipe', value: '2 personnes' },
@@ -85,8 +85,8 @@ const portfolioSectionData = {
     },
     {
       name: 'Covid infograph',
-      image: import('@/assets/portfolio/project-1.jpeg'),
-      dates: [new Date('2023-01'), new Date('2024-04')],
+      image: import('@/assets/portfolio/covid-19.jpeg'),
+      dates: [new Date('2023-01'), new Date('2023-04')],
       details: [
         { label: 'Taille de l\'équipe', value: '5 personnes' },
         { label: 'Mon rôle', value: ['Réalisation des graphs', 'Front-end'] },
@@ -110,8 +110,8 @@ const portfolioSectionData = {
     },
     {
       name: 'SupperAppart',
-      image: import('@/assets/portfolio/project-1.jpeg'),
-      dates: [new Date('2023-01'), new Date('2024-04')],
+      image: import('@/assets/portfolio/appartement.jpeg'),
+      dates: [new Date('2022-09'), new Date('2023-01')],
       details: [
         { label: 'Taille de l\'équipe', value: '5 personnes' },
         { label: 'Mon rôle', value: ['Création de la bdd', 'Front-end'] },
