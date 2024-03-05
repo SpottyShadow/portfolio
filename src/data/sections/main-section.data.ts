@@ -1,6 +1,6 @@
 import type { MainSection } from '@/types/sections/main-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { facebook, github, linkedin, twitter } from '../helpers/links';
+import { github, linkedin } from '../helpers/links';
 
 const mainSectionData = {
   config: {
@@ -33,7 +33,7 @@ const mainSectionData = {
     url: '/cv.pdf',
     downloadedFileName: 'CV-Théo_Lemoine.pdf',
   },
-  links: [facebook({ url: '#' }), github({ url: '#' }), linkedin({ url: '#' }), twitter({ url: '#' })],
+  links: [github({ url: 'https://github.com/SpottyShadow' }), linkedin({ url: 'https://linkedin.com/in/lemoinethéo/' })],
 } as const satisfies ReadonlyDeep<MainSection>;
 
 export default mainSectionData;
