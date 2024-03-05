@@ -130,22 +130,22 @@ export const react = createSkillFactory({
   url: 'https://reactjs.org/',
 });
 
-export const Productif = createSkillFactory({
-  name: 'Productif',
-});
+// export const Productif = createSkillFactory({
+//   name: 'Productif',
+// });
 
-export const Autonome = createSkillFactory({
-  name: 'Autonome',
-});
+// export const Autonome = createSkillFactory({
+//   name: 'Autonome',
+// });
 
-export const Créatif = createSkillFactory({
-  name: 'Créatif',
-});
+// export const Créatif = createSkillFactory({
+//   name: 'Créatif',
+// });
 
-export const TravailEquipe = createSkillFactory({
-  name: 'Travail en équipe',
-});
+// export const TravailEquipe = createSkillFactory({
+//   name: 'Travail en équipe',
+// });
 
-export const Respectueux = createSkillFactory({
-  name: 'Respectueux',
-});
+// export const Respectueux = createSkillFactory({
+//   name: 'Respectueux',
+// });
