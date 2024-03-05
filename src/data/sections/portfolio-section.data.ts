@@ -2,22 +2,18 @@ import type { PortfolioSection } from '@/types/sections/portfolio-section.types'
 import type { ReadonlyDeep } from 'type-fest';
 import { demo, github, mockups, website } from '../helpers/links';
 import {
-  chakraUi,
-  eslint,
-  firebase,
-  jest,
-  nestJs,
-  nextJs,
-  nx,
-  pnpm,
-  postgreSql,
-  prettier,
-  react,
-  sass,
-  tailwindCss,
-  typescript,
+
   python,
   mongoDb,
+  ScikitLearn,
+  Pandas,
+  Keras,
+  Java,
+  Spring,
+  Django,
+  Plotly,
+  PLSQL,
+  OracleSQL,
 } from '../helpers/skills';
 
 const portfolioSectionData = {
@@ -54,7 +50,7 @@ const portfolioSectionData = {
         'Notre source de donnée sont des laissés sur des livres. Le but des modèles est de pouvoir prédire la polarité d\'un commentaire (positif, négatif ou neutre) et aussi de pouvoir prédire le score que le lecteur va attribuer dans son commentaire.',
       tagsList: {
         title: 'Technologie',
-        tags: [python()],// rajouter scikit-learn, pandas, keras, tensorflow
+        tags: [python(), ScikitLearn(), Pandas(), Keras()],// rajouter scikit-learn, pandas, keras, tensorflow
       },
       links: [github({ url: 'https://github.com/JulesLscx/RankFinder' })],
     },
@@ -80,7 +76,7 @@ const portfolioSectionData = {
         'Réaliser un site web vitrine pour des series TV. Faire une fonction de recherche par l\'algorithme TF-IDF, Faire une recommandation de séries. Intégrer un système de création de compte, la possibilité de like/dislike une série.',
       tagsList: {
         title: 'Technologie',
-        tags: [python(), mongoDb()],// rajouter java, spring
+        tags: [python(), mongoDb(), Java(), Spring()],// rajouter java, spring
       },
       links: [github({ url: 'https://github.com/Baran-Kaya-PS/mySsearch' }), github({ url: 'https://github.com/Baran-Kaya-PS/NLP_Project' })],
     },
@@ -104,7 +100,7 @@ const portfolioSectionData = {
         'Tableau de bord permettant d\'analyser des publications scientifiques sur le Covid-19. Réaliser des graphs cohérent par rapport aux données.',
       tagsList: {
         title: 'Technologie',
-        tags: [python(), mongoDb()],// rajouter Django, pandas, plotly
+        tags: [python(), mongoDb(), Django(), Pandas(), Plotly()],// rajouter Django, pandas, plotly
       },
       links: [github({ url: 'https://github.com/JulesLscx/covid_infograph' })],
     },
@@ -127,7 +123,7 @@ const portfolioSectionData = {
         'Logiciel permettant de faire la gestion de biens immobilier, ainsi que la gestion des locataires, des paiements, des contrats, des charges, etc.',
       tagsList: {
         title: 'Technologie',
-        tags: [],// rajouter PL/SQL, Java, OracleSql
+        tags: [PLSQL(), Java(), OracleSQL()],// rajouter PL/SQL, Java, OracleSql
       },
       links: [github({ url: 'https://github.com/JulesLscx/SupperAppart' })],
     },
