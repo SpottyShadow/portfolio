@@ -132,34 +132,34 @@ export const react = createSkillFactory({
 
 export const Productif = createSkillFactory({
   name: 'Productif',
-  icon: null,
+  icon: import('@/assets/logos/sql.jpg'),
   iconColor: '#000000',
   url: '#',
 });
 export const Autonome = createSkillFactory({
   name: 'Autonome',
-  icon: null,
+  icon: import('@/assets/logos/sql.jpg'),
   iconColor: '#000000',
   url: '#',
 });
 
 export const Créatif = createSkillFactory({
   name: 'Créatif',
-  icon: null,
+  icon: import('@/assets/logos/sql.jpg'),
   iconColor: '#000000',
   url: '#',
 });
 
 export const TravailEquipe = createSkillFactory({
   name: 'Travail en équipe',
-  icon: null,
+  icon: import('@/assets/logos/sql.jpg'),
   iconColor: '#000000',
   url: '#',
 });
 
 export const Respectueux = createSkillFactory({
   name: 'Respectueux',
-  icon: null,
+  icon: import('@/assets/logos/sql.jpg'),
   iconColor: '#000000',
   url: '#',
 });
