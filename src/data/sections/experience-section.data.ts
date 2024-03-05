@@ -30,7 +30,7 @@ const experienceSectionData = {
       `,
       tagsList: {
         title: 'Technologie',
-        tags: [python(), MicrosoftSqlServer(), Csharp()],
+        tags: [python(), Csharp()],//MicrosoftSqlServer(),
       },
       links: [github({ url: 'https://github.com/SpottyShadow' }), linkedin({ url: 'https://www.linkedin.com/in/thibault-fouillet/' })],
     },
