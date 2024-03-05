@@ -22,7 +22,7 @@ import {
 
 const skillsSectionData = {
   config: {
-    title: 'Skills',
+    title: 'Compétences',
     slug: 'skills',
     icon: 'fa6-solid:bars-progress',
     visible: true,

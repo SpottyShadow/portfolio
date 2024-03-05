@@ -5,7 +5,7 @@ import { facebook, github, linkedin, twitter } from '../helpers/links';
 const mainSectionData = {
   config: {
     icon: 'fa6-solid:user',
-    title: 'Profile',
+    title: 'Profil',
     slug: 'profile',
     visible: true,
   },
