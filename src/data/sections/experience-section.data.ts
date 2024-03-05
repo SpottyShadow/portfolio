@@ -19,7 +19,7 @@ const experienceSectionData = {
     {
       role: 'Administrateur de base de données',
       company: 'Thibault-net Consulting',
-      image: import('@/assets/logos/google-logo.jpg'),
+      image: import('@/assets/logos/logo_stage.jpg'),
       dates: [new Date('2023-04'), new Date('2023-06')],
       description: `
         - Améliorations des procédures stockées de SQLServeur.
