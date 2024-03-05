@@ -13,7 +13,7 @@ const config = {
   meta: {
     title: 'Théo Lemoine - Étudiant en 3ème année de BUT Informatique',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales ac dui at vestibulum. In condimentum metus id dui tincidunt, in blandit mi vehicula.',
+      'Je suis un étudiant passionné, constamment en quête d\'apprentissage et d\'approfondissement de mes connaissances dans le domaine de l\'informatique. Fasciné par l\'impact de l\'ia dans les nouvelles technologies. Ma formation et mes projets personnels m\'ont donné la capacité à m\'adapter dans un environnement en constante évolution.',
     faviconPath: '/src/assets/my-image.jpeg',
   },
   pdf: {
