@@ -34,7 +34,7 @@ export const Sql = createSkillFactory({
 
 export const ScikitLearn = createSkillFactory({
   name: 'SciKit-Learn',
-  icon: 'simple-icons:python', //a changer
+  icon: null, //a changer
   iconColor: '#000000',
   url: 'https://scikit-learn.org/stable/',
 });
@@ -42,20 +42,20 @@ export const ScikitLearn = createSkillFactory({
 export const Pandas = createSkillFactory({
   name: 'Pandas',
   icon: 'simple-icons:pandas', //a changer
-  iconColor: '#000000',
+  iconColor: '#150458',
   url: 'https://pandas.pydata.org//',
 });
 
 export const Keras = createSkillFactory({
   name: 'Keras',
-  icon: 'simple-icons:keras', //a changer
-  iconColor: '#000000',
+  icon: 'simple-icons:Keras', //a changer
+  iconColor: '#D00000',
   url: 'https://keras.io/',
 });
 
 export const Java = createSkillFactory({
   name: 'Java',
-  icon: 'simple-icons:Java', //a changer
+  icon: 'simple-icons:OpenJDK', //a changer
   iconColor: '#000000',
   url: 'https://www.java.com/fr/',
 });
@@ -63,48 +63,48 @@ export const Java = createSkillFactory({
 export const Spring = createSkillFactory({
   name: 'Spring',
   icon: 'simple-icons:Spring', //a changer
-  iconColor: '#000000',
+  iconColor: '#6DB33F',
   url: 'https://spring.io/',
 });
 
 export const Django = createSkillFactory({
   name: 'Django',
   icon: 'simple-icons:Django', //a changer
-  iconColor: '#000000',
+  iconColor: '#092E20',
   url: 'https://www.djangoproject.com/',
 });
 
 export const Plotly = createSkillFactory({
   name: 'Plotly',
   icon: 'simple-icons:Plotly', //a changer
-  iconColor: '#000000',
+  iconColor: '#3F4F75',
   url: 'https://plotly.com/',
 });
 
 export const PLSQL = createSkillFactory({
   name: 'PL/SQL',
-  icon: 'simple-icons:PlSQL', //a changer
+  icon: null, //a changer
   iconColor: '#000000',
   url: 'https://www.oracle.com/fr/database/technologies/appdev/plsql.html#:~:text=PL%2FSQL%20est%20un%20langage,dans%20la%20base%20de%20donn%C3%A9es.',
 });
 
 export const OracleSQL = createSkillFactory({
   name: 'Oracle SQL',
-  icon: 'simple-icons:Oracle Sql', //a changer
-  iconColor: '#000000',
+  icon: 'simple-icons:Oracle', //a changer
+  iconColor: '#F80000',
   url: 'https://www.oracle.com/fr/database/technologies/appdev/sql.html',
 });
 
 export const MicrosoftSqlServer = createSkillFactory({
   name: 'Microsoft SQL Server',
-  icon: 'simple-icons:SQL',
+  icon: 'simple-icons:Microsoft SQL Server',
   iconColor: '#CC2927',
   url: 'https://www.microsoft.com/fr-fr/sql-server/',
 });
 
 export const Csharp = createSkillFactory({
   name: 'C#',
-  icon: 'simple-icons:csharp',
+  icon: 'simple-icons:C#',
   iconColor: '#512BD4',
   url: 'https://learn.microsoft.com/fr-fr/dotnet/csharp/',
 });

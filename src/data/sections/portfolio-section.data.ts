@@ -96,6 +96,10 @@ const portfolioSectionData = {
       pdfDetails: [
         { label: 'Repository', value: 'https://github.com/JulesLscx/covid_infograph', url: '#' },
       ],
+      screenshots: [
+        { src: import('@/assets/portfolio/infograph1.jpg'), alt: 'Premier screenshot' },
+        { src: import('@/assets/portfolio/infograph2.jpg'), alt: 'Deuxième screenshot' },
+      ],
       description:
         'Tableau de bord permettant d\'analyser des publications scientifiques sur le Covid-19. Réaliser des graphs cohérent par rapport aux données.',
       tagsList: {
@@ -115,6 +119,9 @@ const portfolioSectionData = {
       ],
       pdfDetails: [
         { label: 'Repository', value: 'https://github.com/JulesLscx/SupperAppart', url: '#' },
+      ],
+      screenshots: [
+        { src: import('@/assets/portfolio/immo1.jpg'), alt: 'Premier screenshot' },
       ],
       description:
         'Logiciel permettant de faire la gestion de biens immobilier, ainsi que la gestion des locataires, des paiements, des contrats, des charges, etc.',
