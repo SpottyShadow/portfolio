@@ -37,17 +37,17 @@ const favoritesSectionData = {
     title: 'Vidéos que j\'ai regardées',
     data: [
       {
-        image: import('@/assets/favorites/videos/ia.jpeg'),
+        image: import('@/assets/favorites/videos/ia.jpg'),
         title: 'ChatGPT vient de se faire détrôner par des génies français',
         url: 'https://www.youtube.com/watch?v=mc2Qli9ImOI&ab_channel=Underscore_',
       },
       {
-        image: import('@/assets/favorites/videos/defendI.jpeg'),
+        image: import('@/assets/favorites/videos/defendI.jpg'),
         title: 'Ce qui se cache vraiment derrière l’IA vidéo de OpenAI Sora.',
         url: 'https://www.youtube.com/watch?v=iH7oqFxHe6A&ab_channel=DefendIntelligence',
       },
       {
-        image: import('@/assets/favorites/videos/bdd.jpeg'),
+        image: import('@/assets/favorites/videos/bdd.jpg'),
         title: "L’erreur que TOUS les nouveaux développeurs font !",
         url: 'https://www.youtube.com/watch?v=MGG-km9vR_E&ab_channel=Underscore_',
       },
