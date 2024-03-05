@@ -51,7 +51,13 @@ const skillsSectionData = {
     },
     {
       title: 'Je suis',
-      Skills:[Productif(), Autonome(), Créatif(), TravailEquipe(), Respectueux()]
+      skills: [
+        { name: 'Productif' },
+        { name: 'Autonome' },
+        { name: 'Créatif' },
+        { name: 'Travail en équipe' },
+        { name: 'Respectueux' },
+      ],
     },
     {
       title: 'J\'aimerais apprendre',

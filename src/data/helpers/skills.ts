@@ -129,37 +129,3 @@ export const react = createSkillFactory({
   iconColor: '#61DAFB',
   url: 'https://reactjs.org/',
 });
-
-export const Productif = createSkillFactory({
-  name: 'Productif',
-  icon: import('@/assets/logos/sql.jpg'),
-  iconColor: '#000000',
-  url: '#',
-});
-export const Autonome = createSkillFactory({
-  name: 'Autonome',
-  icon: import('@/assets/logos/sql.jpg'),
-  iconColor: '#000000',
-  url: '#',
-});
-
-export const Créatif = createSkillFactory({
-  name: 'Créatif',
-  icon: import('@/assets/logos/sql.jpg'),
-  iconColor: '#000000',
-  url: '#',
-});
-
-export const TravailEquipe = createSkillFactory({
-  name: 'Travail en équipe',
-  icon: import('@/assets/logos/sql.jpg'),
-  iconColor: '#000000',
-  url: '#',
-});
-
-export const Respectueux = createSkillFactory({
-  name: 'Respectueux',
-  icon: import('@/assets/logos/sql.jpg'),
-  iconColor: '#000000',
-  url: '#',
-});
