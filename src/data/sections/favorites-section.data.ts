@@ -3,92 +3,53 @@ import type { ReadonlyDeep } from 'type-fest';
 
 const favoritesSectionData = {
   config: {
-    title: 'My favorites',
+    title: 'Mes favoris',
     slug: 'favorites',
     icon: 'fa6-solid:star',
     visible: true,
   },
-  books: {
-    title: 'Books I read',
-    data: [
-      {
-        image: import('@/assets/favorites/books/book-1.jpeg'),
-        title: 'The Pragmatic Programmer: From Journeyman to Master',
-        author: 'Andy Hunt, Dave Thomas',
-        url: 'https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer',
-      },
-      {
-        image: import('@/assets/favorites/books/book-2.jpg'),
-        title: 'Domain-Driven Design: Tackling Complexity in the Heart of Software',
-        author: 'Eric Evans',
-        url: 'https://www.goodreads.com/book/show/179133.Domain_Driven_Design',
-      },
-      {
-        image: import('@/assets/favorites/books/book-3.jpeg'),
-        title: 'Clean Code: A Handbook of Agile Software Craftsmanship',
-        author: 'Robert C. Martin',
-        url: 'https://www.goodreads.com/book/show/3735293-clean-code',
-      },
-      {
-        image: import('@/assets/favorites/books/book-4.jpeg'),
-        title: 'The Clean Coder: A Code of Conduct for Professional Programmers',
-        author: 'Robert C. Martin',
-        url: 'https://www.goodreads.com/book/show/10284614-the-clean-coder',
-      },
-    ],
-  },
   people: {
-    title: 'People I learn from',
+    title: 'Personnes dont j\'ai appris',
     data: [
       {
-        image: import('@/assets/favorites/people/person-1.jpg'),
-        name: 'Kent C. Dodds',
-        url: 'https://kentcdodds.com/',
+        image: import('@/assets/favorites/people/MohBougha.jpg'),
+        name: 'Mohand Boughanem',
+        url: 'https://www.irit.fr/~Mohand.Boughanem/',
       },
       {
-        image: import('@/assets/favorites/people/person-2.jpeg'),
-        name: 'Kent Beck',
-        url: 'https://www.kentbeck.com/',
+        image: import('@/assets/favorites/people/gc2016.jpg'),
+        name: 'Guillaume Cabanac',
+        url: 'https://www.irit.fr/~Guillaume.Cabanac/',
       },
       {
-        image: import('@/assets/favorites/people/person-3.jpeg'),
-        name: 'Eric Evans',
-        url: 'https://www.domainlanguage.com/',
+        image: import('@/assets/favorites/people/Millan.jpg'),
+        name: 'Thierry Millan',
+        url: 'https://www.irit.fr/~Thierry.Millan/',
       },
       {
-        image: import('@/assets/favorites/people/person-4.jpeg'),
-        name: 'Martin Fowler',
-        url: 'https://martinfowler.com/',
-      },
-      {
-        image: import('@/assets/favorites/people/person-5.jpg'),
-        name: 'Robert C. Martin',
-        url: 'http://cleancoder.com/',
-      },
-      {
-        image: import('@/assets/favorites/people/person-6.jpeg'),
-        name: 'Adam Dymitruk',
-        url: 'https://eventmodeling.org/',
+        image: import('@/assets/favorites/people/jpc.jpeg'),
+        name: 'Jean Paul Carrara',
+        url: 'https://www.linkedin.com/in/jean-paul-carrara-69568186/?originalSubdomain=fr',
       },
     ],
   },
   videos: {
-    title: 'Videos I watched',
+    title: 'Vidéos que j\'ai regardées',
     data: [
       {
-        image: import('@/assets/favorites/videos/video-1.jpeg'),
-        title: 'Building Resilient Frontend Architecture • Monica Lent • GOTO 2019',
-        url: 'https://youtu.be/TqfbAXCCVwE',
+        image: import('@/assets/favorites/videos/ia.jpeg'),
+        title: 'ChatGPT vient de se faire détrôner par des génies français',
+        url: 'https://www.youtube.com/watch?v=mc2Qli9ImOI&ab_channel=Underscore_',
       },
       {
-        image: import('@/assets/favorites/videos/video-2.jpeg'),
-        title: 'Scaling Yourself • Scott Hanselman • GOTO 2012',
-        url: 'https://youtu.be/FS1mnISoG7U',
+        image: import('@/assets/favorites/videos/defendI.jpeg'),
+        title: 'Ce qui se cache vraiment derrière l’IA vidéo de OpenAI Sora.',
+        url: 'https://www.youtube.com/watch?v=iH7oqFxHe6A&ab_channel=DefendIntelligence',
       },
       {
-        image: import('@/assets/favorites/videos/video-3.jpeg'),
-        title: "Why Isn't Functional Programming the Norm? - Richard Feldman",
-        url: 'https://youtu.be/QyJZzq0v7Z4',
+        image: import('@/assets/favorites/videos/bdd.jpeg'),
+        title: "L’erreur que TOUS les nouveaux développeurs font !",
+        url: 'https://www.youtube.com/watch?v=MGG-km9vR_E&ab_channel=Underscore_',
       },
     ],
   },
