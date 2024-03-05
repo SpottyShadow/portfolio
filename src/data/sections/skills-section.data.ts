@@ -2,23 +2,24 @@ import type { SkillsSection } from '@/types/sections/skills-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import {
   python,
-  apolloGraphql,
-  astro,
-  chakraUi,
-  cypress,
-  eslint,
-  firebase,
   mongoDb,
-  nestJs,
-  pnpm,
   postgreSql,
-  prettier,
   react,
-  sass,
-  supabase,
-  tailwindCss,
-  typescript,
   Sql,
+  ScikitLearn,
+  Pandas,
+  Keras,
+  Java,
+  Spring,
+  Django,
+  Plotly,
+  Csharp,
+  MicrosoftSqlServer,
+  Productif,
+  Autonome,
+  Créatif,
+  TravailEquipe,
+  Respectueux,
 } from '../helpers/skills';
 
 const skillsSectionData = {
@@ -32,38 +33,25 @@ const skillsSectionData = {
     {
       title: 'Je maîtrise déjà',
       skills: [
-        python({
-          level: 5
-        }),
-        Sql({
-          level: 5
-        }),
-        typescript({
-          level: 4,
-          description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-        }),
-        sass({
-          level: 4,
-          description: 'Nulla interdum pellentesque ultricies. Ut id eros commodo, ultrices ligula eu, elementum ante.',
-        }),
-        chakraUi({ level: 5 }),
-        tailwindCss({ level: 3 }),
-        prettier({ level: 5 }),
-        eslint({
-          level: 4,
-          description:
-            'Nulla tempor turpis at vehicula pharetra. Vestibulum tellus tortor, commodo et suscipit id, lobortis id nunc.',
-        }),
-        nestJs({
-          level: 3,
-          description:
-            'Praesent feugiat ultricies iaculis. In posuere vehicula odio, sed consequat velit porta viverra.',
-        }),
-        postgreSql({ level: 2 }),
-        mongoDb({ level: 1 }),
-        firebase({ level: 1 }),
-        pnpm({ level: 3 }),
+        python({ level: 4}),
+        Sql({ level: 4}),
+        postgreSql({ level: 3 }),
+        mongoDb({ level: 4 }),
+        Sql({ level: 4 }),
+        ScikitLearn({ level: 3 }),
+        Pandas({ level: 3 }),
+        Keras({ level: 3 }),
+        Java({ level: 3 }),
+        Spring({ level: 2 }),
+        Django({ level: 2 }),
+        Plotly({ level: 3 }),
+        Csharp({ level: 2 }),
+        MicrosoftSqlServer({ level: 4 }),
       ],
+    },
+    {
+      title: 'Je suis',
+      Skills:[Productif(), Autonome(), Créatif(), TravailEquipe(), Respectueux()]
     },
     {
       title: 'J\'aimerais apprendre',

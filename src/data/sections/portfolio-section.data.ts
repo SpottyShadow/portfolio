@@ -54,7 +54,7 @@ const portfolioSectionData = {
         'Notre source de donnée sont des laissés sur des livres. Le but des modèles est de pouvoir prédire la polarité d\'un commentaire (positif, négatif ou neutre) et aussi de pouvoir prédire le score que le lecteur va attribuer dans son commentaire.',
       tagsList: {
         title: 'Technologie',
-        tags: [python()],// rajouter scikit-learn, pandas, kera, tensorflow
+        tags: [python()],// rajouter scikit-learn, pandas, keras, tensorflow
       },
       links: [github({ url: 'https://github.com/JulesLscx/RankFinder' })],
     },
