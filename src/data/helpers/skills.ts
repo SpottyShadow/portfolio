@@ -27,7 +27,7 @@ export const python = createSkillFactory({
 
 export const Sql = createSkillFactory({
   name: 'SQL',
-  icon: import('@/assets/logos/sql.jpeg'),
+  icon: import('@/assets/logos/sql.jpg'),
   url: 'https://sql.sh/',
 });
 
