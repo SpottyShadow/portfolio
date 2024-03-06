@@ -11,7 +11,7 @@ const mainSectionData = {
   },
   image: import('@/assets/my-image.jpeg'),
   fullName: 'Théo Lemoine',
-  role: 'Étudiant en 3ème anneé de BUT Informatique',
+  role: 'Étudiant en 3ème année de BUT Informatique',
   details: [
     { label: 'Téléphone', value: '06 43 21 56 09', url: 'tel:06 43 21 56 09' },
     { label: 'Email', value: 'lemoinetheo2003@gmail.com', url: 'mailto:lemoinetheo2003@gmail.com' },
