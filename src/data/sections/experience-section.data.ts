@@ -22,7 +22,7 @@ const experienceSectionData = {
       image: import('@/assets/logos/logo-stage.jpg'),
       dates: [new Date('2023-04'), new Date('2023-06')],
       description: `
-        - Améliorations des procédures stockées de SQLServeur.
+        - Amélioration des procédures stockées de SQLServeur.
         - Mise en place d'une solution d'archivage.
         - Correction de bugs mineurs en développement C# / WPF
         - Mise en place d'un plan de maintenance pour la base SQLServeur.

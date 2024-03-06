@@ -47,7 +47,7 @@ const portfolioSectionData = {
         { src: import('@/assets/portfolio/model4.jpg'), alt: 'Quatrième screenshot' },
       ],
       description:
-        'Notre source de donnée sont des laissés sur des livres. Le but des modèles est de pouvoir prédire la polarité d\'un commentaire (positif, négatif ou neutre) et aussi de pouvoir prédire le score que le lecteur va attribuer dans son commentaire.',
+        'Notre source de données sont des commentaires laissés sur des livres. Le but des modèles est de pouvoir prédire la polarité d\'un commentaire (positif, négatif ou neutre) et aussi de pouvoir prédire le score que le lecteur va attribuer dans son commentaire.',
       tagsList: {
         title: 'Technologie',
         tags: [python(), ScikitLearn(), Pandas(), Keras()],// rajouter scikit-learn, pandas, keras, tensorflow
@@ -73,7 +73,7 @@ const portfolioSectionData = {
         { src: import('@/assets/portfolio/MySearch3.jpg'), alt: 'Troisième screenshot' },
       ],
       description:
-        'Réaliser un site web vitrine pour des series TV. Faire une fonction de recherche par l\'algorithme TF-IDF, Faire une recommandation de séries. Intégrer un système de création de compte, la possibilité de like/dislike une série.',
+        'Réaliser un site web vitrine pour des series TV. Création d\'une fonction de recherche par l\'algorithme TF-IDF et d\'une fonction de recommandation de séries. Intégration d\'un système de création de compte, possibilité de liker/disliker une série.',
       tagsList: {
         title: 'Technologie',
         tags: [python(), mongoDb(), Java(), Spring()],// rajouter java, spring
@@ -97,7 +97,7 @@ const portfolioSectionData = {
         { src: import('@/assets/portfolio/infograph2.jpg'), alt: 'Deuxième screenshot' },
       ],
       description:
-        'Tableau de bord permettant d\'analyser des publications scientifiques sur le Covid-19. Réaliser des graphs cohérent par rapport aux données.',
+        'Tableau de bord permettant d\'analyser des publications scientifiques sur le Covid-19. Réalisation de graphiques cohérents par rapport aux données.',
       tagsList: {
         title: 'Technologie',
         tags: [python(), mongoDb(), Django(), Pandas(), Plotly()],// rajouter Django, pandas, plotly
@@ -120,7 +120,7 @@ const portfolioSectionData = {
         { src: import('@/assets/portfolio/immo1.jpg'), alt: 'Premier screenshot' },
       ],
       description:
-        'Logiciel permettant de faire la gestion de biens immobilier, ainsi que la gestion des locataires, des paiements, des contrats, des charges, etc.',
+        'Logiciel permettant de faire la gestion de biens immobiliers, ainsi que la gestion des locataires, des paiements, des contrats, des charges, etc.',
       tagsList: {
         title: 'Technologie',
         tags: [PLSQL(), Java(), OracleSQL()],// rajouter PL/SQL, Java, OracleSql

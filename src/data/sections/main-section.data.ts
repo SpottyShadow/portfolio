@@ -26,7 +26,7 @@ const mainSectionData = {
     { label: 'Website', value: 'portfolio-sigma-sage-52.vercel.app/', url: '/', fullRow: true },
   ],
   description:
-    'Je suis un étudiant passionné, constamment en quête d\'apprentissage et d\'approfondissement de mes connaissances dans le domaine de l\'informatique. Fasciné par l\'impact de l\'ia dans les nouvelles technologies. Ma formation et mes projets personnels m\'ont donné la capacité à m\'adapter dans un environnement en constante évolution.',
+    'Je suis un étudiant passionné, constamment en quête d\'apprentissage et d\'approfondissement de mes connaissances dans le domaine de l\'informatique. Fasciné par l\'impact de l\'IA dans les nouvelles technologies. Ma formation et mes projets personnels m\'ont donné la capacité à m\'adapter dans un environnement en constante évolution.',
   tags: [{ name: 'Disponible à Alternance' }, { name: 'Disponible aux stages' }, { name: 'Travail sur des projets personnel' }],
   action: {
     label: 'Télécharger le CV',
