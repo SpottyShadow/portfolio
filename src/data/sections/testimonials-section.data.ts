@@ -24,7 +24,7 @@ const testimonialsSectionData = {
       relation: 'On a travaillé ensemble sur plusieurs projets au cours de notre formation',
       content:
         'J’ai eu l’occasion de travailler avec Theo sur plusieurs projets notamment en machine learning, son savoir et ses compétences en la matière ont étés un point clé dans la réussite des projets.',
-      links: [github({ url: 'https://github.com/JulesLscx' }), linkedin({ url: 'https://www.linkedin.com/in/jules-lascoux/' })],
+      links: [github({ url: 'https://github.com/Patrick-Jeanjean' }), linkedin({ url: 'https://www.linkedin.com/in/patrick-jeanjean-a1ba38250/' })],
     },
   ],
 } as const satisfies ReadonlyDeep<TestimonialsSection>;
